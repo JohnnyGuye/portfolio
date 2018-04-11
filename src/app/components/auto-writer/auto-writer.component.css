@@ -1,0 +1,20 @@
+div {
+  font-family: 'Source Code Pro', "Lucida Console", monospace;
+}
+
+.pos-marker {
+  animation-duration: 1s;
+  animation-name: flicker;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes flicker {
+  from {
+    color: transparent;
+  }
+
+  to {
+    color: white;
+  }
+}

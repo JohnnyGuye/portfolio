@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+
+/* Border Box */
+* {
+  box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+  font-family: Roboto, Open Sans, Helvetica, Arial;
+  height: 100%;
+  min-height: 1080px;
+  color: white;
+}
+
+
+@keyframes move {
+	0% {
+		background-position: 0 60%, 0 50%;
+	}
+	100% {
+	  background-position: 0 60%, 100% 50%;
+	}
+}
+
+.peekthroughthebackground {
+  background-color: #263645;
+	background-image: url('http://bootscootin2pdx.com/network.svg'), radial-gradient(200px 500px at center, #ff8300 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0));
+	background-size: 125%, 50% 100%;
+  background-position: 0 60%, 0 100%;
+  animation: move 5s linear infinite;
+
+  /* Extra Styles */
+  height: 300px;
+  /*box-shadow: inset 0 0 25px rgba(0,0,0,.5);*/
+  border: 2px solid transparent;
+  border-right: 0;
+  border-left: 0;
+}

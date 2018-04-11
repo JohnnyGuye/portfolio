@@ -1,0 +1,26 @@
+<section class=timeline>
+	<h1>{{title}}</h1>
+	<p class="leader">{{subtitle}}</p>
+	<div class="demo-card-wrapper">
+		<div *ngFor="let item of items" class="demo-card demo-card--step3">
+			<div class="head">
+				<div class="number-box">
+					<span>{{item.begindate.getMonth()}}</span>
+				</div>
+				<h2><span class="small">{{item.subtitle}}</span>{{item.title}}</h2>
+			</div>
+			<div class="body text-right">
+				<p class="text-left" [innerHTML]="item.htmltext"></p>
+				<a *ngIf="item.externalLink" href="{{item.externalLink}}" >
+					<i class="fa fa-external-link" aria-hidden="true"></i>
+					<img [src]="item.imgurl" alt="Graphic">
+				</a>
+				<a *ngIf="!item.externalLink" href="{{item.externalLink}}" >
+					<i class="fa fa-external-link" aria-hidden="true"></i>
+					<img [src]="item.imgurl" alt="Graphic">
+				</a>
+			</div>
+		</div>
+
+	</div>
+</section>

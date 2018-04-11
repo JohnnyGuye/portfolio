@@ -1,0 +1,57 @@
+{ "timelineItems":
+  [
+    {
+      "title": "Comunity Contest #2",
+      "subtitle": "Bot programming contest & secret until release",
+      "begindate": 1513693321829,
+      "enddate": 1513707821540,
+      "htmltext": "Do you know <a href='https://codingame.com'>codingame</a>? It's a website on which developers can test, improve and share knowledge about algorithms. They started a new concept \"Community Contests\". Some motivated bot programming players have the possibility to work hand in hand with CG to create a Contest for the other members of the community. It should be released between February and April. Can't spoil, but I hope to see you in the ladder!",
+      "imgurl": "assets/images/illustrations/cc_cg_2.png",
+      "externalLink": "https://codingame.com/contests"
+    },
+    {
+      "title": "RAW",
+      "subtitle": "iOS & Android app ",
+      "begindate": 1513693321829,
+      "enddate": 1513707821540,
+      "htmltext": "RAW for Race Against The World. I created the whole app which runs on both iOS and Android. Basically, it's a stopwatch triggered by GPS, plus a community and gaming aspect. To be fair it's not one, but two apps, one dedicated to Mountain Bike tracks, and one for Motocross. I worked with a schoolmate who did the server side part. The app is still on the run.",
+      "externalLink": "http://www.raceagainsttheworld.com/",
+      "imgurl": "assets/images/illustrations/raw_mtb.png"
+    },
+    {
+      "title": "Un doua de Jazz",
+      "subtitle": "static website",
+      "begindate": 1513693321829,
+      "enddate": 1513707821540,
+      "htmltext": "<i>Un doua de Jazz</i> is a jazz festival by students created 24 years ago. Me and a designer worked on the new appearance of the website of the 22nd edition and I updated the website for the 23rd and 24th editions.",
+      "externalLink": "http://undouadejazz.com/",
+      "imgurl": "assets/images/illustrations/uddj.png"
+    },
+    {
+      "title": "Team Builder",
+      "subtitle": "Web app",
+      "begindate": 1513693321829,
+      "enddate": 1513707821540,
+      "htmltext": "This one is a tool for gaming event creators. Its purpose is to create an interesting matchmaking from a pool of players in team based games (League of Legend and Heroes of the Storm). It's highly based on personal elo and currently used by the bar gaming Arcaneum.",
+      "imgurl": "assets/images/illustrations/team-builder.png",
+      "externalLink": "http://team-builder.eu"
+    },
+    {
+      "title": "Aren IA",
+      "subtitle": "C++, 3D game, scripting Lua & creation game engine",
+      "begindate": 1513693321829,
+      "enddate": 1513707821540,
+      "htmltext": "ArenIA is a 3D game coded with the 3D engine OGRE 3D. The key idea was to create a game in which robots battle each others in real time. But we, developers, are lazy, and we left the code of the AI for players. Probably the hardest project I tried.",
+      "imgurl": "assets/images/illustrations/arenia-logo.png"
+    },
+    {
+      "title": "Rogue like Maggle",
+      "subtitle": "Java & 2D tiled games",
+      "begindate": 1513693321829,
+      "enddate": 1513707821540,
+      "htmltext": "In second year at INSA we had to design a short program for the grade. While a card game was definately fine in 2 months, a friend and I decided to push the things further. We ended up with a tiled game with no real name in which you can fight ennemies with a sport...and a LAZEEER !",
+      "imgurl": "assets/images/illustrations/rogue_like_maggle.png",
+      "externalLink": "https://github.com/JohnnyGuye/ArenIA"
+    }
+  ]
+}
